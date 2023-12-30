@@ -1,1 +1,1 @@
-# homework
+# static-vite
