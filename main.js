@@ -5,7 +5,4 @@ import.meta.glob( [
 ] );
 
 document.querySelector('#app').innerHTML = `
-<div class="bg">
-  <h1>Viteの静的コーディングはじまるよ！</h1>
-</div>
 `

@@ -1,3 +1,22 @@
+@charset "UTF-8";
+
+@mixin breakpoint($point) {
+	// @if $point == wide {
+	// 	@media (min-width:1031px) { @content ; }
+	//   }
+
+	@if $point == pc {
+		@media (min-width:768px) { @content ; }
+	}
+	@if $point == tab {
+		@media (min-width:768px) { @content ; }
+	}
+	@if $point == sp {
+		@media (max-width:767px) { @content ; }
+	}
+}
+
+
 body {
     margin: 0;
 }
