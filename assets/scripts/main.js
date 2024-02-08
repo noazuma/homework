@@ -1,1 +1,2 @@
-console.log( 'JSを読み込んだよ！' );
+// console.log( 'JSを読み込んだよ！' );
+
