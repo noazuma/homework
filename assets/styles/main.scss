@@ -42,6 +42,17 @@ header {
 			margin-top: 2%;
 			margin-left: 3%;
 		}
+		.nav {
+			position: fixed;
+			top: 0;
+			left: -300px;
+			width: 300px;
+			color: #fff;
+			padding: 36px 50px;
+			transition: all 0.5s;
+			z-index: 20;
+			opacity: 0;
+		}
     }
 .btn-line {
 	position: relative;
@@ -50,7 +61,9 @@ header {
 	right: 10px;
 	top:10px;
 	padding: 0;
-	// appearance: none;
+	border: none;
+	outline: none;
+	background: transparent;
 	cursor: pointer;
 	span {
 		display:block;
@@ -61,7 +74,7 @@ header {
 		border: 2px solid #333333;
 	}
 	:nth-child(1) {
-		top: 15px;
+		top: 20px;
 	}
 	:nth-child(2) {
 		bottom: 15px;
