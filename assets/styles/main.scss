@@ -83,6 +83,9 @@ header {
 
 .wrapper {
 	padding-top: 80px;
+	max-width: 1360px ;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 
 .item-list{
@@ -114,4 +117,18 @@ footer {
 	.copyright {
 		margin: 15px 10%;
 	}
+}
+
+// item
+.p-item-box {
+	padding-top: 80px;
+}
+.item-tit {
+	font-size: 0.875rem; 
+	margin-bottom: 40px;
+}
+
+
+.p-item {
+	display: flex;
 }
