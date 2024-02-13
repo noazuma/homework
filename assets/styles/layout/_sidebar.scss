@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+
+
+.l-sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    color: #fff;
+    padding: 36px 50px;
+    transition: all 0.5s;
+    z-index: 20;
+    opacity: 0;
+}

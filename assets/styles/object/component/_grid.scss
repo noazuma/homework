@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.c-grid {
+  display: grid;
+  &__top {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 33px;
+  }
+}

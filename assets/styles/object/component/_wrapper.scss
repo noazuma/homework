@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.c-wrapper {
+  //   padding-top: 80px;
+  max-width: 1360px;
+  padding: 0 auto;
+  margin: 0 auto;
+  &__top {
+    padding-top: 80px;
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1360px;
+  }
+}

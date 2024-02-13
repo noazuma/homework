@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    .copyright {
+        margin: 15px 10%;
+    }
+}
