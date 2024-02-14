@@ -2,6 +2,8 @@
 
 * {
     font-family: "Meiryo,Regular";
+    padding: 0;
+    margin: 0;
 }
 
 body html {
@@ -16,4 +18,5 @@ img {
 }
 a {
     text-decoration: none;
+    cursor: pointer;
 }

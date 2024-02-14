@@ -7,9 +7,11 @@
     &__top {
         grid-template-columns: repeat(4, 1fr);
         gap: 33px;
+        margin-bottom: 40px;
         @include m.mq(pc) {
             grid-template-columns: repeat(2, 1fr);
             gap: 17.22px;
+            padding: 3rem;
         }
     }
 }

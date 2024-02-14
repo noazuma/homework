@@ -10,13 +10,18 @@
     outline: none;
     background: transparent;
     cursor: pointer;
+    z-index: 30;
     span {
+        top: 10px;
         text-align: center;
         display: block;
         position: absolute;
         width: 30px;
         height: 2px;
         background-color: #333;
+        &.open {
+            transform: rotate(45deg);
+        }
     }
     span::before {
         content: "";
@@ -26,5 +31,8 @@
         width: 30px;
         height: 2px;
         background-color: #333;
+        &.open {
+            transform: rotate(-45deg);
+        }
     }
 }

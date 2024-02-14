@@ -1,16 +1,19 @@
 @charset "UTF-8";
 
-
-
-
 .l-sidebar {
     position: fixed;
     top: 0;
-    left: -300px;
-    width: 300px;
+    left: -100%;
+    width: 70%;
+    height: 100%;
     color: #fff;
     padding: 36px 50px;
     transition: all 0.5s;
     z-index: 20;
     opacity: 0;
+    &.open {
+        left: 0px;
+        opacity: 0.8;
+        background-color: #000;
+    }
 }

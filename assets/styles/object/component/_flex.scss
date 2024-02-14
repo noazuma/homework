@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.c-flex {
+    display: flex;
+    &--wrap {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
