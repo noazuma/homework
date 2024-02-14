@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
+@use "../../foundation/mixin" as m;
+
 .c-grid {
-  display: grid;
-  &__top {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 33px;
-  }
+    display: grid;
+    &__top {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 33px;
+        @include m.mq(pc) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 17.22px;
+        }
+    }
 }

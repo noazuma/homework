@@ -1,13 +1,11 @@
 @charset "UTF-8";
 
-@mixin breakpoint($point) {
-    // @if $point == wide {
-    // 	@media (min-width:1031px) { @content ; }
-    //   }
+$breakpoints: (
+    pc: "screen and (max-width: 900px)",
+) !default;
 
-    @if $point == pc {
-        @media (min-width: 900px) {
-            @content;
-        }
+@mixin mq($bp) {
+    @media #{map-get($breakpoints, $bp)} {
+        @content;
     }
 }

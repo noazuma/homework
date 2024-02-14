@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+
+.p-sns {
+    display: flex;
+    gap: 10px;
+    @include m.mq(pc) {
+        margin-bottom: 0.1rem;
+    }
+}

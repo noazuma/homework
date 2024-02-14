@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.p-btn-line {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    span {
+        text-align: center;
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background-color: #333;
+    }
+    span::before {
+        content: "";
+        top: 10px;
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        background-color: #333;
+    }
+}

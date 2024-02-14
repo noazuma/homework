@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
+@use "../foundation/mixin" as m;
+
 footer {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-
-    .copyright {
-        margin: 15px 10%;
+    @include m.mq(pc) {
+        flex-direction: column;
     }
 }
