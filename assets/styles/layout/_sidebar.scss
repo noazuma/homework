@@ -11,9 +11,4 @@
     transition: all 0.5s;
     z-index: 20;
     opacity: 0;
-    &.open {
-        left: 0px;
-        opacity: 0.8;
-        background-color: #000;
-    }
 }

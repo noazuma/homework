@@ -16,6 +16,7 @@
 @use "object/component/img.scss";
 @use "object/component/copy";
 @use "object/component/flex";
+@use "object/component/about-box";
 
 /*project*/
 @use "object/project/btn";
@@ -23,6 +24,7 @@
 @use "object/project/page";
 @use "object/project/text-link";
 @use "object/project/item";
+@use "object/project/js-btn";
 
 @use "object/utility/mb";
 @use "object/utility/font-size";

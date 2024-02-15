@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.p-js-btn {
+    .--line {
+    }
+    &.open {
+        left: 0px;
+        opacity: 0.8;
+        background-color: #000;
+    }
+}
