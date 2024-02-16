@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+
+.p-map {
+    max-width: 600px;
+    @include m.mq(pc) {
+        width: 100%;
+    }
+}

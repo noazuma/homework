@@ -11,6 +11,16 @@
     background: transparent;
     cursor: pointer;
     z-index: 30;
+    &.open {
+        transform: rotate(45deg);
+        bottom: 0;
+        transition: all 0.5s;
+        span::before {
+            transform: rotate(90deg);
+            top: 0;
+            transition: all 0.5s;
+        }
+    }
     span {
         top: 10px;
         text-align: center;
@@ -19,9 +29,7 @@
         width: 30px;
         height: 2px;
         background-color: #333;
-        &.open {
-            transform: rotate(45deg);
-        }
+        transition: all 0.3s;
     }
     span::before {
         content: "";
@@ -31,8 +39,6 @@
         width: 30px;
         height: 2px;
         background-color: #333;
-        &.open {
-            transform: rotate(-45deg);
-        }
+        transition: all 0.3s;
     }
 }

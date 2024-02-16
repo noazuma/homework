@@ -17,6 +17,7 @@
 @use "object/component/copy";
 @use "object/component/flex";
 @use "object/component/about-box";
+@use "object/component/list";
 
 /*project*/
 @use "object/project/btn";
@@ -25,9 +26,11 @@
 @use "object/project/text-link";
 @use "object/project/item";
 @use "object/project/js-btn";
+@use "object/project/map";
 
 @use "object/utility/mb";
 @use "object/utility/font-size";
+@use "object/utility/color";
 
 // @mixin breakpoint($point) {
 //     // @if $point == wide {

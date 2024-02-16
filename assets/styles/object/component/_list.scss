@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.c-list {
+    padding: 20px 30px;
+    border-bottom: 1px solid #dcdbdb;
+    &--bn {
+        padding: 20px 30px;
+        padding-bottom: 40px;
+    }
+}

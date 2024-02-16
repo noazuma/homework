@@ -16,9 +16,15 @@
     }
     &--text__list {
         width: 30%;
+        @include m.mq(pc) {
+            border: none;
+        }
     }
     &--text__content {
         width: 70%;
+        @include m.mq(pc) {
+            width: 100%;
+        }
     }
     &--box {
         padding-top: 80px;
