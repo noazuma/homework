@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@use "../../foundation/mixin" as m;
+
+.u-width {
+    width: 75%;
+    @include m.mq(pc) {
+        width: 100%;
+    }
+}

@@ -3,6 +3,7 @@
 /*Foundation*/
 @use "foundation/base";
 @use "foundation/mixin";
+@use "foundation/js-btn";
 
 /*layout*/
 @use "layout/header";
@@ -25,12 +26,13 @@
 @use "object/project/page";
 @use "object/project/text-link";
 @use "object/project/item";
-@use "object/project/js-btn";
 @use "object/project/map";
 
+/*utility*/
 @use "object/utility/mb";
 @use "object/utility/font-size";
 @use "object/utility/color";
+@use "object/utility/width";
 
 // @mixin breakpoint($point) {
 //     // @if $point == wide {

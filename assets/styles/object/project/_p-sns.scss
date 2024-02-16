@@ -5,6 +5,9 @@
 .p-sns {
     display: flex;
     gap: 10px;
+    li a {
+        font-size: 12px;
+    }
     @include m.mq(pc) {
         margin-bottom: 0.1rem;
     }
