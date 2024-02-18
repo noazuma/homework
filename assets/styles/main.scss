@@ -3,7 +3,7 @@
 /*Foundation*/
 @use "foundation/base";
 @use "foundation/mixin";
-@use "foundation/js-btn";
+@use "foundation/button";
 
 /*layout*/
 @use "layout/header";
@@ -13,26 +13,27 @@
 
 /*component*/
 @use "object/component/grid";
+@use "object/component/inner";
 @use "object/component/wrapper";
 @use "object/component/img.scss";
 @use "object/component/copy";
 @use "object/component/flex";
-@use "object/component/about-box";
 @use "object/component/list";
 
 /*project*/
 @use "object/project/btn";
-@use "object/project/p-sns";
+@use "object/project/sns";
 @use "object/project/page";
 @use "object/project/text-link";
 @use "object/project/item";
 @use "object/project/map";
+@use "object/project/about-box";
 
 /*utility*/
 @use "object/utility/mb";
 @use "object/utility/font-size";
-@use "object/utility/color";
-@use "object/utility/width";
+@use "object/utility/colorwhite";
+@use "object/utility/width75";
 
 // @mixin breakpoint($point) {
 //     // @if $point == wide {

@@ -6,7 +6,7 @@
     display: grid;
     &__top {
         grid-template-columns: repeat(4, 1fr);
-        gap: 33px;
+        gap: 2.1rem;
         margin-bottom: 40px;
         @include m.mq(pc) {
             grid-template-columns: repeat(2, 1fr);

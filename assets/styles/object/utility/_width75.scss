@@ -2,7 +2,7 @@
 
 @use "../../foundation/mixin" as m;
 
-.u-width {
+.u-width75 {
     width: 75%;
     @include m.mq(pc) {
         width: 100%;

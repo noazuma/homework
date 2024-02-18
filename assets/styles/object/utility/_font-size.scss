@@ -1,8 +1,15 @@
 @charset "UTF-8";
+@use "../../foundation/mixin" as m;
 
 .u-font-size {
-    font-size: 16px;
+    font-size: rem(16);
     &__14 {
-        font-size: 14px;
+        font-size: rem(14);
+    }
+    &--menu {
+        font-size: 0.75rem;
+    }
+    &--sns {
+        font-size: rem(12);
     }
 }

@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-.c-wrapper {
+.c-inner {
     max-width: 1360px;
-    padding: 0 40px;
     margin: 0 auto;
+    padding: 0;
     &--top {
         padding-top: 80px;
-        padding: 0 auto;
         margin: 0 auto;
+        padding: 80px 40px;
         max-width: 1360px;
     }
 }

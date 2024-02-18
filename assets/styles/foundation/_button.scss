@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+// .jsbtn {
+//     // &.open {
+//     //     left: 0px;
+//     //     opacity: 0.8;
+//     //     background-color: #000;
+//     }
+// }
+.jsnav {
+    &.open {
+        left: 0px;
+        opacity: 0.8;
+        background-color: #000;
+    }
+}
