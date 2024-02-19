@@ -8,8 +8,8 @@
         width: 180px;
     }
     &__item {
-        max-width: 400px;
-        max-height: 400px;
+        max-width: 90%; //componentに固有の値を入れないようにする
+        max-height: 90%;
         @include m.mq(pc) {
             margin: 0 auto;
             width: 100%;

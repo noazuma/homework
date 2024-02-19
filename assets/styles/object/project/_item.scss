@@ -6,24 +6,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    &--tit {
+    &__title {
         font-size: 0.875rem;
         margin-bottom: 30px;
         font-weight: normal;
         margin-top: 40px;
     }
-    &--text {
+    &__text {
         padding-bottom: 25px;
     }
-    &--text__list {
+    &__text__list {
         width: 30%;
         @include m.mq(pc) {
             border: none;
         }
     }
-    &--text__content {
+    &__text__content {
         width: 70%;
-        &__c {
+        &__company {
             width: 70%;
             @include m.mq(pc) {
                 width: 100%;
